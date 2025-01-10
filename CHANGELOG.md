@@ -29,10 +29,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Plano de ação
 
 1. estudo teórico com foco em navegação autônoma e controle de agentes;
-2. entender como os robôs interagem no ambiente a partir do rsoccer_gym;
-3. implementação incremental;
-4. documentação e comparação de resultados;
-5. pesquisa de soluções para análise de estratégias.
+2. entender como os robôs interagem no ambiente;
+3. pesquisa de soluções para análise de estratégias;
+4. implementação incremental;
+5. testes;
+6. documentação e comparação de resultados.
 
 ## 2025-09-01 &ensp; \</~fmn>
+### Implementação
 
+- Entendimento da integração sslenv.py / base_agent.py / agent.py;
+- Lidando com o 1º desafio:
+    - Implementação de "Avoidance behavior"
+        - Agente ainda colide com obstáculos mas já da pra notar que tenta desviar;
+        - Talvez a velocidade esteja interferindo no movimento de desvio do agente em relação aos obstáculos.
