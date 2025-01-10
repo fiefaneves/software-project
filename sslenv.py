@@ -46,7 +46,8 @@ class SSLExampleEnv(SSLBaseEnv):
         if field == 2:
             self.field_renderer = SSLHRenderField()
             self.window_size = self.field_renderer.window_size
-        
+
+    # converts the current frame's ball and robot positions into an observation array    
     def _frame_to_observations(self):
         ball, robot = self.frame.ball, self.frame.robots_blue[0]
         return np.array([ball.x, ball.y, robot.x, robot.y])
@@ -58,6 +59,7 @@ class SSLExampleEnv(SSLBaseEnv):
                 self.all_points.push(target)
                 
         # Visible path drawing control
+        """Quando existir mais de um agente, apenas mandar o agente para o target mais próximo"""
         for i in self.my_agents:
             self.robots_paths[i].push(Point(self.frame.robots_blue[i].x, self.frame.robots_blue[i].y))
 
