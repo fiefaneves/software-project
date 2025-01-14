@@ -76,6 +76,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Melhorar a modularização:
         - Melhoria deveria ter sido implementada no Navigation.py.
     - Estudar e reavaliar os parâmetros:
-        - Testes feitos com K_ATTRACT = 5.0, K_REPULSE = 3.0 e REPULSE_RADIUS = 0.5 apresentaram melhor comportamento que K_ATTRACT = 3.0, K_REPULSE = 3.0 e REPULSE_RADIUS = 0.5.
+        - Testes feitos com K_ATTRACT = 5.0, K_REPULSE = 3.0 e REPULSE_RADIUS = 0.5 apresentaram melhor comportamento que K_ATTRACT = 3.0, K_REPULSE = 3.0 e REPULSE_RADIUS = 0.5. (Foram feitas capturas dos comportamentos)
 
 
